@@ -10,15 +10,24 @@ import { LayoutModule } from '@angular/cdk/layout';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { WorkPageComponent } from './work-page/work-page.component';
+import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
+    AboutPageComponent,
+    WhereaboutsPageComponent,
+    WorkPageComponent,
     PageNotFoundComponent,
     MainNavComponent,
-    ProfileCardComponent
+    ProfileCardComponent,
+    AboutPageComponent,
+    WorkPageComponent,
+    WhereaboutsPageComponent
   ],
   imports: [
     BrowserModule,

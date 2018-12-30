@@ -3,7 +3,7 @@
   <!-- The side nav -->
   <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+               [mode]="push" [opened]="false"
       [opened]="false">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
@@ -25,6 +25,7 @@
         (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
+      <span class="mat-spacer"></span>
       <span>Lachezar Balev</span>
     </mat-toolbar>
 

@@ -8,6 +8,8 @@ import { MaterialModule } from './material/material.module';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ProfileCardComponent } from './profile-card/profile-card.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 
 @NgModule({
@@ -15,10 +17,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     AppComponent,
     HomePageComponent,
     PageNotFoundComponent,
-    MainNavComponent
+    MainNavComponent,
+    ProfileCardComponent
   ],
   imports: [
     BrowserModule,
+    FlexLayoutModule,
     AppRoutingModule,
     MaterialModule,
     LayoutModule,

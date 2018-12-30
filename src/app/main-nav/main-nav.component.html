@@ -1,9 +1,11 @@
 <mat-sidenav-container class="sidenav-container">
+
+  <!-- The side nav -->
   <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="false">
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item href="#">Home</a>
       <a mat-list-item href="#">Work</a>
@@ -11,8 +13,11 @@
       <a mat-list-item href="#">About me</a>
     </mat-nav-list>
   </mat-sidenav>
+  <!-- EO: Side nav-->
+
+  <!-- Side nav content-->
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar color="primary" class="fixed-toolbar">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -22,6 +27,10 @@
       </button>
       <span>Lachezar Balev</span>
     </mat-toolbar>
-    <!-- Add Content Here -->
+
+    <div class="mat-toolbar-single-row"></div>
+
   </mat-sidenav-content>
+  <!-- EO: Side nav content-->
+
 </mat-sidenav-container>

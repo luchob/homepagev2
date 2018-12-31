@@ -14,7 +14,10 @@
   </p>
 </div>
 
-<div *ngFor="let qa of qas">
-  <app-qa-section [qa]="qa"></app-qa-section>
-  <br/>
+<div fxLayout="row" fxLayoutAlign="space-around center">
+  <div fxFlex="1 1 50%" fxFlex.xs="1 1 auto">
+    <div *ngFor="let qa of qas" fxLayout="column" class="qa-section">
+      <app-qa-section [qa]="qa"></app-qa-section>
+    </div>
+  </div>
 </div>

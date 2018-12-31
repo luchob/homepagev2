@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {QaService} from '../services/qa.service';
+import {Mood, QaModel} from '../model/qa.model';
 
 @Component({
   selector: 'app-about-page',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPageComponent implements OnInit {
 
-  constructor() { }
+  moodType = Mood;
+  questions: QaModel[];
+
+  constructor(private qaService: QaService) { }
 
   ngOnInit() {
+    this.questions = this.qaService.getQA();
   }
 
 }

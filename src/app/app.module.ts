@@ -13,6 +13,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { WorkPageComponent } from './work-page/work-page.component';
 import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.component';
+import { QaSectionComponent } from './qa-section/qa-section.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.co
     ProfileCardComponent,
     AboutPageComponent,
     WorkPageComponent,
-    WhereaboutsPageComponent
+    WhereaboutsPageComponent,
+    QaSectionComponent
   ],
   imports: [
     BrowserModule,

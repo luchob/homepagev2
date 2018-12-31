@@ -1,0 +1,23 @@
+<mat-card>
+  <div fxLayout="row" fxLayoutAlign="start center">
+    <div class="mood">
+      <mat-icon mat-list-icon>
+        <div [ngSwitch]="qa.mood">
+          <div *ngSwitchCase="moodType.BAD">
+            sentiment_dissatisfied
+          </div>
+          <div *ngSwitchCase="moodType.GOOD">
+            sentiment_satisfied
+          </div>
+          <div *ngSwitchCase="moodType.EXCELLENT">
+            mood
+          </div>
+        </div>
+      </mat-icon>
+    </div>
+    <div>
+      <strong>Q:</strong> {{ qa.question }}<br/>
+      <strong>A:</strong> {{ qa.answer }}
+    </div>
+  </div>
+</mat-card>

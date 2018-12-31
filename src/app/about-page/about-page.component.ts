@@ -9,13 +9,12 @@ import {Mood, QaModel} from '../model/qa.model';
 })
 export class AboutPageComponent implements OnInit {
 
-  moodType = Mood;
-  questions: QaModel[];
+  qas: QaModel[];
 
   constructor(private qaService: QaService) { }
 
   ngOnInit() {
-    this.questions = this.qaService.getQA();
+    this.qas = this.qaService.getQA();
   }
 
 }

@@ -14,30 +14,7 @@
   </p>
 </div>
 
-<div *ngFor="let question of questions">
-  <mat-card>
-    <div fxLayout="row" fxLayoutAlign="start center">
-      <div class="mood">
-        <mat-icon mat-list-icon>
-          <div [ngSwitch]="question.mood">
-            <div *ngSwitchCase="moodType.BAD">
-              sentiment_dissatisfied
-            </div>
-            <div *ngSwitchCase="moodType.GOOD">
-              sentiment_satisfied
-            </div>
-            <div *ngSwitchCase="moodType.EXCELLENT">
-              mood
-            </div>
-          </div>
-
-        </mat-icon>
-      </div>
-      <div>
-        <strong>Q:</strong> {{ question.question }}<br/>
-        <strong>A:</strong> {{ question.answer }}
-      </div>
-    </div>
-  </mat-card>
+<div *ngFor="let qa of qas">
+  <app-qa-section [qa]="qa"></app-qa-section>
   <br/>
 </div>

@@ -3,3 +3,9 @@
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
+
+.quick-start {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

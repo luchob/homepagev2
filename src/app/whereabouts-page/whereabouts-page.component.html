@@ -1,14 +1,10 @@
+<!-- Just the top section -->
+<div class="top"></div>
+
+<!-- Profiles -->
 <div fxLayout="column">
   <div class="mat-headline center">
-    A few profiles
-  </div>
-</div>
-
-<div fxLayout="row" fxLayoutAlign="space-around center">
-  <div fxFlex="1 1 50%" fxFlex.xs="1 1 auto">
-    <div *ngFor="let qa of qas" fxLayout="column" class="qa-section">
-      <app-qa-section [qa]="qa"></app-qa-section>
-    </div>
+    Few profiles of mine...
   </div>
 </div>
 
@@ -19,26 +15,23 @@
 
   <!-- Stackoverflow -->
   <mat-card class="wa-card">
-    <mat-card-header>
-      <mat-card-title>Me@Stack Exchange</mat-card-title>
-    </mat-card-header>
-    <mat-card-content class="wa-card-content">
+    <mat-card-content class="center">
+      <p>Me@Stack Exchange</p>
       <a href="http://stackexchange.com/users/246295" target="blank">
-        <img src="http://stackexchange.com/users/flair/246295.png" width="208" height="58"
+        <img src="http://stackexchange.com/users/flair/246295.png" width="200" height="50"
              alt="profile for lucho on Stack Exchange, a network of free, community-driven Q&amp;A sites"
              title="profile for Lachezar Balev on Stack Exchange, a network of free, community-driven Q&amp;A sites"/>
       </a>
     </mat-card-content>
   </mat-card>
 
+
   <!-- Linkedin -->
   <mat-card class="wa-card">
-    <mat-card-header>
-      <mat-card-title>Me@LinkedIn</mat-card-title>
-    </mat-card-header>
-    <mat-card-content class="wa-card-content">
+    <mat-card-content class="center">
+      <p>Me@LinkedIn</p>
       <a href="http://bg.linkedin.com/pub/lachezar-balev/6/162/a15" target="blank">
-        <img src="assets/li_link.png" width="160" height="33"
+        <img src="assets/li_link.png" width="200" height="50"
              alt="View Lachezar Balev's profile on LinkedIn"/>
       </a>
     </mat-card-content>
@@ -46,10 +39,8 @@
 
   <!-- GitHub -->
   <mat-card class="wa-card">
-    <mat-card-header>
-      <mat-card-title>Me@Github</mat-card-title>
-    </mat-card-header>
-    <mat-card-content class="wa-card-content">
+    <mat-card-content class="center">
+      <p>Me@Github</p>
       <a href="https://github.com/luchob" target="blank">
         <img class="img" src="assets/github.png" alt="Lachezar Balev's Github Account">
       </a>
@@ -58,9 +49,10 @@
 
 </div>
 
+<!-- Friends/fan section -->
 <div fxLayout="column">
   <div class="mat-headline center">
-    Friend and fan of
+    Friend and fan of:
   </div>
 </div>
 
@@ -71,37 +63,43 @@
 
   <!-- BGJUG -->
   <mat-card class="wa-card">
-    <mat-card-content class="wa-card-content">
+    <mat-card-content class="center">
+      <a href="https://jug.bg/en/" target="blank">
         <img
           width="150"
           height="150"
           src="assets/bg-jug.png"
-             alt="Bulgarian JUG"
-             title="Bulgarian JUG"/>
+          alt="Bulgarian JUG"
+          title="Bulgarian JUG"/>
+      </a>
     </mat-card-content>
   </mat-card>
 
   <!-- JPrime.io -->
   <mat-card class="wa-card">
-    <mat-card-content class="wa-card-content">
-      <img
-        width="150"
-        height="150"
-        src="assets/jprime.png"
-        alt="JPrime.io"
-        title="JPrime.io"/>
+    <mat-card-content class="center">
+      <a href="https://jprime.io" target="blank">
+        <img
+          width="150"
+          height="150"
+          src="assets/jprime.png"
+          alt="jPrime.io"
+          title="jPrime.io"/>
+      </a>
     </mat-card-content>
   </mat-card>
 
   <!-- Java Beer -->
   <mat-card class="wa-card">
-    <mat-card-content class="wa-card-content">
-      <img
-        width="150"
-        height="150"
-        src="assets/javabeer.png"
-        alt="Java Beer"
-        title="Java Beer"/>
+    <mat-card-content class="center">
+      <a href="https://java.beer" target="blank">
+        <img
+          width="150"
+          height="150"
+          src="assets/javabeer.png"
+          alt="Java Beer"
+          title="Java Beer"/>
+      </a>
     </mat-card-content>
   </mat-card>
 

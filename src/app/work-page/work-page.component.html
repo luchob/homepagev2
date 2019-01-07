@@ -2,6 +2,124 @@
 <div fxLayout="row" fxLayoutAlign="space-around center" class="profile-card">
   <div fxFlex="1 1 70%" fxFlex.xs="1 1 auto">
 
+    <div class="mat-headline">
+      Companies
+    </div>
+
+    <div>
+      Below are my primary employers.
+      I've also worked on a few small scale projects which are not listed here.
+    </div>
+
+    <!-- REWE Digital Bulgaria -->
+    <mat-card>
+
+      <mat-card-header>
+        <mat-card-title>REWE Digital Bulgaria</mat-card-title>
+        <mat-card-subtitle>Software Engineer</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+
+        <div class="center">
+          <img class="company-img"
+               src="assets/rewe_logo.jpg"
+               alt="REWE Digital"
+               width="120"
+               height="120">
+        </div>
+
+        <mat-accordion>
+          <mat-expansion-panel>
+
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                2017 - until now
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <mat-tab-group>
+              <mat-tab label="Summary">
+                <table>
+                  <tr>
+                    <td><strong>Company</strong></td>
+                    <td>REWE Digital</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Site</strong></td>
+                    <td>rewe-digital.com</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Company summary</strong></td>
+                    <td>REWE Digital is a provider of online solutions in markets relevant to REWE Group.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Where</strong></td>
+                    <td>Bulgaria (Sofia), Germany (Cologne).</td>
+                  </tr>
+                  <tr>
+                    <td><strong>What</strong></td>
+                    <td>Software engineer</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Details</strong></td>
+                    <td>
+                      Participated in the development of a modern fulfillment platform in
+                      with an exciting microservice architecture.
+                      using Java/Spring.
+                      CI/CD into Google Cloud with Jenkins, Gradle.
+                      Using GKE, Kubernetes, Cloud SQL, Stack Driver, Docker and other fancy technologies. Monitoring with Prometheus, Grafana and Alert manager. Android and Angular frontend apps and corresponding REST APIs. Authentication using OAuth2 and Keycloak. Data streaming with Kafka, MySQL.</td>
+                  </tr>
+                </table>
+              </mat-tab>
+              <mat-tab label="Technologies">
+                <table>
+                  <tr>
+                    <td><strong>Languages</strong></td>
+                    <td>Java 8/11, Kotlin, Groovy, Typescript</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Infrastructure and CI/CD</strong></td>
+                    <td>
+                      Jenkins, Gradle, Groovy,
+                      GCloud (GKE, StackDriver, Cloud SQL, StackDriver),
+                      Kubernetes, Docker,
+                      Kafka, MySQL, OAuth2, Keycloak
+                     </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Frameworks</strong></td>
+                    <td>
+                      Spring Boot, Spring Data, Spring Security, Spring Batch, Spring Kafka
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Monitoring</strong></td>
+                    <td>
+                      Prometheus, Grafana, Alert manager
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Quality</strong></td>
+                    <td>
+                      JUnit, Mockito, Mock MVC, Roboelectric
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Frontend</strong></td>
+                    <td>
+                      Angular 6/7, Android (REST)
+                    </td>
+                  </tr>
+                </table>
+              </mat-tab>
+            </mat-tab-group>
+
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-card-content>
+    </mat-card>
+
 
     <mat-card>
 
@@ -67,7 +185,6 @@
         </mat-accordion>
       </mat-card-content>
     </mat-card>
-
 
   </div>
 </div>

@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+
+// mixin name will be used in main style.scss
+@mixin big-input-component-theme($theme) {
+
+  // retrieve variables from theme
+  // (all possible variables, use only what you really need)
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+
+  .tbl-odd-row {
+      background-color: mat-color($primary, lighter);
+  }
+}

@@ -3,11 +3,6 @@
 
 @import 'theme.scss';
 
-// specify theme class eg: <body class="my-theme"> ... </body>
-.lb-app-theme {
-  @include angular-material-theme($lb-app-theme);
-}
-
 body {
   margin: 0;
 }

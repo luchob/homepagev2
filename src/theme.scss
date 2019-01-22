@@ -1,4 +1,7 @@
 @import '~@angular/material/theming';
+
+@import 'app/work-page/work-page.component.scss-theme';
+
 @include mat-core();
 
 $lb-app-primary: mat-palette($mat-deep-purple);
@@ -12,3 +15,5 @@ $lb-app-theme: mat-light-theme($lb-app-primary, $lb-app-accent, $lb-app-warn);
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($lb-app-theme);
+
+@include work-page-component-theme($lb-app-theme);

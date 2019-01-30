@@ -2,17 +2,19 @@
 <div fxLayout="row" fxLayoutAlign="space-around center" class="profile-card">
   <div fxFlex="1 1 70%" fxFlex.xs="1 1 auto">
 
-    <div class="mat-headline">
-      Companies
-    </div>
-
-    <div>
-      Below are my primary employers.
-      I've also worked on a few small scale projects which are not listed here.
+    <!-- Companies section start -->
+    <div class="section">
+      <div class="mat-headline">
+        Companies
+      </div>
+      <div class="mat-body">
+        Below are my primary employers.
+        I've also worked on a few small scale projects which are not listed here.
+      </div>
     </div>
 
     <!-- REWE Digital Bulgaria -->
-    <mat-card>
+    <mat-card class="section">
 
       <mat-card-header>
         <mat-card-title>REWE Digital Bulgaria</mat-card-title>
@@ -22,11 +24,13 @@
       <mat-card-content>
 
         <div class="center">
-          <img class="company-img"
-               src="assets/rewe_logo.jpg"
-               alt="REWE Digital"
-               width="120"
-               height="120">
+          <a href="https://rewe-digital.com/" target="_blank" alt="REWE Digital">
+            <img class="company-img"
+                 src="assets/rewe_logo.jpg"
+                 alt="REWE Digital"
+                 width="120"
+                 height="120">
+          </a>
         </div>
 
         <div class="spacer-small"></div>
@@ -40,34 +44,37 @@
               </mat-panel-title>
             </mat-expansion-panel-header>
 
-                <table>
-                  <tr>
-                    <td><strong>Company</strong></td>
-                    <td>REWE Digital</td>
-                  </tr>
-                  <tr class="tbl-accent-row">
-                    <td><strong>Site</strong></td>
-                    <td>rewe-digital.com</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Company summary</strong></td>
-                    <td>REWE Digital is a provider of online solutions in markets relevant to REWE Group.</td>
-                  </tr>
-                  <tr class="tbl-accent-row">
-                    <td><strong>Where</strong></td>
-                    <td>Bulgaria (Sofia), Germany (Cologne).</td>
-                  </tr>
-                  <tr>
-                    <td><strong>What</strong></td>
-                    <td>Software engineer</td>
-                  </tr>
-                  <tr class="tbl-accent-row">
-                    <td><strong>Details</strong></td>
-                    <td>
-                      Participated in the development of a modern fulfillment platform in
-                      with an exciting microservice architecture.
-                   </tr>
-                </table>
+            <table>
+              <tr>
+                <td><strong>Company</strong></td>
+                <td>REWE Digital</td>
+              </tr>
+              <tr class="tbl-accent-row">
+                <td><strong>Site</strong></td>
+                <td><a href="https://rewe-digital.com/" target="_blank" alt="REWE Digital">rewe-digital.com</a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Company summary</strong></td>
+                <td>REWE Digital is a provider of online solutions in markets relevant to REWE
+                  Group.
+                </td>
+              </tr>
+              <tr class="tbl-accent-row">
+                <td><strong>Where</strong></td>
+                <td>Bulgaria (Sofia), Germany (Cologne).</td>
+              </tr>
+              <tr>
+                <td><strong>What</strong></td>
+                <td>Software engineer</td>
+              </tr>
+              <tr class="tbl-accent-row">
+                <td><strong>Details</strong></td>
+                <td>
+                  Participated in the development of a modern fulfillment platform in
+                  with an exciting microservice architecture.
+              </tr>
+            </table>
 
           </mat-expansion-panel>
 
@@ -128,21 +135,23 @@
     <div class="spacer-big"></div>
 
     <!-- Intershop AG -->
-    <mat-card>
+    <mat-card class="section">
 
       <mat-card-header>
-        <mat-card-title>Intershop Communications</mat-card-title>
+        <mat-card-title>Intershop Communications AG</mat-card-title>
         <mat-card-subtitle>Software Engineer (2007 - 2017)</mat-card-subtitle>
       </mat-card-header>
 
       <mat-card-content>
 
         <div class="center">
-          <img class="company-img"
-               src="assets/ish_logo.jpg"
-               alt="Intershop Communications AG"
-               width="232"
-               height="53">
+          <a href="https://intershop.com/" target="_blank" alt="Intershop Communications AG">
+            <img class="company-img"
+                 src="assets/ish_logo.jpg"
+                 alt="Intershop Communications AG"
+                 width="232"
+                 height="53">
+          </a>
         </div>
 
         <div class="spacer-small"></div>
@@ -163,7 +172,8 @@
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Site</strong></td>
-                <td>www.intershop.de</td>
+                <td><a href="https://intershop.com/" target="_blank"
+                       alt="Intershop Communications AG">intershop.com</a></td>
               </tr>
               <tr>
                 <td><strong>Company summary</strong></td>
@@ -180,10 +190,14 @@
               <tr class="tbl-accent-row">
                 <td><strong>Details</strong></td>
                 <td>
-                  Participated in the development of the core java based Intershop e-commerce platform - Intershop 7
-                  (formerly known as Enfinity). Worked as an on-site and remote consultant and developer for several customers.
-                  Technical lead in a small team. Specialized in web-application security, payment integrations,
-                  integreations with external systems. Worked on e-commerce projects implemented for Telstra, Mexx,
+                  Participated in the development of the core java based Intershop e-commerce
+                  platform - Intershop 7
+                  (formerly known as Enfinity). Worked as an on-site and remote consultant and
+                  developer for several customers.
+                  Technical lead in a small team. Specialized in web-application security, payment
+                  integrations,
+                  integreations with external systems. Worked on e-commerce projects implemented for
+                  Telstra, Mexx,
                   HP, DBahn, EU Publications Office, Mediaset and others.
                   Participated in the preparation of demo shops for market prospects.
                   Gained understanding of the contemporary e-commerce business.
@@ -249,7 +263,7 @@
     <div class="spacer-big"></div>
 
     <!-- Gips Group/IO Medico -->
-    <mat-card>
+    <mat-card class="section">
 
       <mat-card-header>
         <mat-card-title>GIPS Group/IOMedico</mat-card-title>
@@ -259,11 +273,13 @@
       <mat-card-content>
 
         <div class="center">
-          <img class="company-img"
-               src="assets/iomedico_logo.jpg"
-               alt="IOMedico"
-               width="244"
-               height="58">
+          <a href="https://iomedico.org" target="_blank" alt="IOMedico">
+            <img class="company-img"
+                 src="assets/iomedico_logo.jpg"
+                 alt="IOMedico"
+                 width="244"
+                 height="58">
+          </a>
         </div>
 
         <div class="spacer-small"></div>
@@ -284,11 +300,17 @@
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Site</strong></td>
-                <td>www.iomedico.org, www.gips.net</td>
+                <td>
+                  <a href="https://iomedico.org" target="_blank" alt="IOMedico">iomedico.org</a>,
+                  <a href="http://gips.net" target="_blank" alt="GIPS Group">gips.net</a>,
+                  www.gips.net
+                </td>
               </tr>
               <tr>
                 <td><strong>Company summary</strong></td>
-                <td>GIPS Group is a fancy little company that developed software for clinical studies for the based in Germany IOMedico.</td>
+                <td>GIPS Group is a fancy little company that developed software for clinical
+                  studies for the based in Germany IOMedico.
+                </td>
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Where</strong></td>
@@ -301,7 +323,8 @@
               <tr class="tbl-accent-row">
                 <td><strong>Details</strong></td>
                 <td>
-                  Participated in the development of the desktop software IOStudy Office and IOGroupware as well as some other small apps.
+                  Participated in the development of the desktop software IOStudy Office and
+                  IOGroupware as well as some other small apps.
               </tr>
             </table>
 
@@ -350,7 +373,7 @@
     <div class="spacer-big"></div>
 
     <!-- Icygen -->
-    <mat-card>
+    <mat-card class="section">
 
       <mat-card-header>
         <mat-card-title>Icygen</mat-card-title>
@@ -360,11 +383,13 @@
       <mat-card-content>
 
         <div class="center">
-          <img class="company-img"
-               src="assets/icygen_logo.jpg"
-               alt="IOMedico"
-               width="250"
-               height="50">
+          <a href="http://www.icygen.com" target="_blank" alt="Icygen">
+            <img class="company-img"
+                 src="assets/icygen_logo.jpg"
+                 alt="IOMedico"
+                 width="250"
+                 height="50">
+          </a>
         </div>
 
         <div class="spacer-small"></div>
@@ -385,11 +410,13 @@
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Site</strong></td>
-                <td>www.icygen.com</td>
+                <td><a href="http://www.icygen.com" target="_blank" alt="Icygen">icygen.com</a></td>
               </tr>
               <tr>
                 <td><strong>Company summary</strong></td>
-                <td>ICYGEN specializes in providing web-based software, e-business platforms, and Internet marketing solutions.</td>
+                <td>ICYGEN specializes in providing web-based software, e-business platforms, and
+                  Internet marketing solutions.
+                </td>
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Where</strong></td>
@@ -402,7 +429,8 @@
               <tr class="tbl-accent-row">
                 <td><strong>Details</strong></td>
                 <td>
-                  Participated in the development of different java applets which enhanced the main company site.
+                  Participated in the development of different java applets which enhanced the main
+                  company site.
               </tr>
             </table>
 
@@ -450,6 +478,103 @@
       </mat-card-content>
     </mat-card>
 
+    <!-- Education  section start -->
+    <div class="section">
+      <div class="mat-headline">
+        Education
+      </div>
+      <div class="mat-body">
+        Formal education - from 1998 till 2002 - bachelor degree in computer sciences in the
+        Technical University - Sofia.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="mat-headline">
+        Interests
+      </div>
+      <div class="mat-body">
+        In the past I have been particularly interested in web-application security
+        (Injections, CSRF, XSS, session vulnerabilities - predictions, fixation, DoS, and more).
+        I've practical experience in this area and some intermediate knowledge in cryptography
+        including real and successful Padding Oracle attacks on AES/CBC/PKCS7
+        (<a href="https://github.com/luchob/padding-oracle" title="proof of concept"
+            target="_blank">proof
+        of concept</a>).
+        Later I got excited about functional-style programming. Then I started learning and
+        exploring
+        the Spring ecosystem.
+        Microservice architectures are an area of current interest.
+        Of course I always try to keep my coding skills fresh.
+        I love to share my experiences at meetups and conferences.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="mat-headline">
+        Sample code
+      </div>
+      <div class="mat-body">
+        Of course, anyone can browse some code written by me! It can be accessed at my
+        <a href="https://github.com/luchob" target="_blank">Github account</a>.
+        Various of my technical questions, answers and some code samples are availbale in my
+        <a href="https://stackoverflow.com/users/520359/lachezar-balev" target="_blank">Stackoverflow
+          account</a>.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="mat-headline">
+        Misc
+      </div>
+      <div class="mat-body">
+        This is a little bit abstract but anyways, let me try...
+
+        <table>
+          <tr>
+            <td><strong>Sooo, I think that I...:</strong></td>
+            <td>
+              <ul>
+                <li>
+                  love to learn and experiment and browse and peek my nose under the hood.
+                  Learning is the best investment. One never knows enough.
+                </li>
+                <li>
+                  try to be flexible and understand all the different points of view.
+                </li>
+              feel best in informal and startup like environment.
+              believe in "individuals and interactions over processes and tools".
+              feel calm in unknown and uncertain environment. I've spent numerous hours on-site and remotely working on different tasks with new people and even in foreign countries.
+              understand different cultures. In my practice I've cooperated with people from Bulgaria, Germany, Italy, US, UK, Australia, India, Czech Republic, Netherlands, Russia, Ukraine, China, Luxemburg, Macedonia. And even from the Republic of Mauritius...
+              am not stressed by large audience. Hopefully.
+              still believe that the best tool for solving problems is a piece of paper and a pencil.
+              am open and direct. I'm not interested in politics and I'll never be.
+              </ul>
+            </td>
+          </tr>
+          <tr class="tbl-accent-row">
+            <td><strong>Infrastructure</strong></td>
+            <td>
+              MySQL, Apache
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Technologies</strong></td>
+            <td>
+              Core Java technologies and API-s,
+              Java Applets.
+            </td>
+          </tr>
+          <tr class="tbl-accent-row">
+            <td><strong>Tools</strong></td>
+            <td>
+              JCreator
+            </td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
 
   </div>
 </div>

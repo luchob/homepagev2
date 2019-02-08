@@ -1,4 +1,4 @@
-<div fxLayout="column">
+<div fxLayout="column" class="section">
   <div class="mat-headline center">
     An interview with... myself!
   </div>
@@ -16,7 +16,7 @@
 
 <div fxLayout="row" fxLayoutAlign="space-around center">
   <div fxFlex="1 1 50%" fxFlex.xs="1 1 auto">
-    <div *ngFor="let qa of qas" fxLayout="column" class="qa-section">
+    <div *ngFor="let qa of qas" fxLayout="column" class="section">
       <app-qa-section [qa]="qa"></app-qa-section>
     </div>
   </div>

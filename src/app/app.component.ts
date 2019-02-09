@@ -34,6 +34,8 @@ export class AppComponent implements OnInit {
         this.seoService.updateTitle(title);
         this.seoService.updateDescription(desc);
       }
+
+      window.scrollTo(0, 0);
     });
   }
 

@@ -12,13 +12,12 @@ export class AboutPageComponent implements OnInit {
 
   qas: QaModel[];
 
-  constructor(private qaService: QaService, private titleService: Title) {
+  constructor(private qaService: QaService) {
 
   }
 
   ngOnInit() {
     this.qas = this.qaService.getQA();
-    this.titleService.setTitle('Lachezar Balev - About');
   }
 
 }

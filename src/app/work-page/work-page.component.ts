@@ -6,12 +6,7 @@ import {Title} from '@angular/platform-browser';
   templateUrl: './work-page.component.html',
   styleUrls: ['./work-page.component.scss']
 })
-export class WorkPageComponent implements OnInit {
+export class WorkPageComponent {
 
-  constructor(private titleService: Title) {}
-
-  ngOnInit() {
-    this.titleService.setTitle('Lachezar Balev - Work and CV');
-  }
-
+  constructor() {}
 }

@@ -6,12 +6,7 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.scss']
 })
-export class HomePageComponent implements OnInit {
+export class HomePageComponent {
 
-  constructor(private titleService: Title) { }
-
-  ngOnInit() {
-    this.titleService.setTitle('Lachezar Balev - Home Page');
-  }
-
+  constructor() { }
 }

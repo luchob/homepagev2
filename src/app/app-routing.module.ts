@@ -47,15 +47,18 @@ const appRoutes: Routes = [
         'home page that you should visit.',
     }
   },
-  { path: '',
+  {
+    path: '',
     redirectTo: '/home',
-    pathMatch: 'full',
-    data: {
-      title: 'Lachezar Balev - Homepage',
-      description: 'Ups...',
-    }
+    pathMatch: 'full'
   },
-  { path: '**', component: PageNotFoundComponent }
+  {
+    path: '**',
+    component: PageNotFoundComponent,
+    data: {
+      title: 'Page not found',
+      description: 'Ups... The page was not found...',
+    }}
 ];
 
 

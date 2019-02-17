@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>http://balev.eu/</loc>
+		<lastmod>2019-02-18T10:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://balev.eu/home</loc>
+		<lastmod>2019-02-18T10:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://balev.eu/work</loc>
+		<lastmod>2019-02-04T10:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://balev.eu/whereabouts</loc>
+		<lastmod>2019-02-18T10:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://balev.eu/about</loc>
+		<lastmod>2019-02-18T10:04:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+</urlset>

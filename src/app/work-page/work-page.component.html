@@ -36,7 +36,7 @@
         <div class="spacer-small"></div>
 
         <mat-accordion>
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('rewe')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -78,7 +78,7 @@
 
           </mat-expansion-panel>
 
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('rewe')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -115,7 +115,7 @@
               <tr>
                 <td><strong>Quality</strong></td>
                 <td>
-                  JUnit, Mockito, Mock MVC, Roboelectric
+                  JUnit, Mockito, Mock MVC, Roboelectric, Cucumber
                 </td>
               </tr>
               <tr class="tbl-accent-row">
@@ -157,7 +157,7 @@
         <div class="spacer-small"></div>
 
         <mat-accordion>
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('intershop')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -206,7 +206,7 @@
 
           </mat-expansion-panel>
 
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('intershop')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -217,39 +217,38 @@
             <table>
               <tr>
                 <td><strong>Languages</strong></td>
-                <td>Java 8/11, Kotlin, Groovy, Typescript</td>
+                <td>Java, Java 8, JavaScript</td>
               </tr>
               <tr class="tbl-accent-row">
                 <td><strong>Infrastructure and CI/CD</strong></td>
                 <td>
-                  Jenkins, Gradle, Groovy,
-                  GCloud (GKE, StackDriver, Cloud SQL, StackDriver),
-                  Kubernetes, Docker, Git,
-                  Kafka, MySQL, OAuth2, Keycloak
+                  Jenkins, Gradle, Ant,
+                  Oracle (SQL, PL/SQL), SOLR, Tomcat, Apache
                 </td>
               </tr>
               <tr>
-                <td><strong>Frameworks</strong></td>
+                <td><strong>Libraries</strong></td>
                 <td>
-                  Spring Boot, Spring Data, Spring Security, Spring Batch, Spring Kafka
+                  Industry standard libraries like Guice, Apache Commons libs (cli, codec, collections, etc),
+                  HTTP client, SLF4J with logback, Guava, Jersey and many more
                 </td>
               </tr>
               <tr class="tbl-accent-row">
-                <td><strong>Monitoring</strong></td>
-                <td>
-                  Prometheus, Grafana, Alert manager
-                </td>
-              </tr>
-              <tr>
                 <td><strong>Quality</strong></td>
                 <td>
-                  JUnit, Mockito, Mock MVC, Roboelectric
+                  JUnit, Mockito, HTMLUnit, Geb
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Frontend</strong></td>
+                <td>
+                  HTML, JavaScript, CSS, JQuery, JQuery UI, EmberJS
                 </td>
               </tr>
               <tr class="tbl-accent-row">
-                <td><strong>Frontend</strong></td>
+                <td><strong>Tools</strong></td>
                 <td>
-                  Angular 6/7, Android
+                  Eclipse (IStudio), JIRA, Confluence, GitLab, SQLDeveloper
                 </td>
               </tr>
             </table>
@@ -285,7 +284,7 @@
         <div class="spacer-small"></div>
 
         <mat-accordion>
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('iomedico')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -330,7 +329,7 @@
 
           </mat-expansion-panel>
 
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('iomedico')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -395,7 +394,7 @@
         <div class="spacer-small"></div>
 
         <mat-accordion>
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('icygen')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -436,7 +435,7 @@
 
           </mat-expansion-panel>
 
-          <mat-expansion-panel>
+          <mat-expansion-panel (opened)="onExpansionPanelOpen('icygen')">
 
             <mat-expansion-panel-header>
               <mat-panel-title>

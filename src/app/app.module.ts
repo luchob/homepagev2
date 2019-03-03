@@ -12,17 +12,17 @@ import { ProfileCardComponent } from './profile-card/profile-card.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutPageComponent } from './about/about-page/about-page.component';
 import { WorkPageComponent } from './work/work-page/work-page.component';
-import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.component';
+import { WhereaboutsPageComponent } from './whereabouts/whereabouts-page/whereabouts-page.component';
 import { QaSectionComponent } from './about/qa-section/qa-section.component';
 import {WorkModule} from './work/work.module';
 import {AboutModule} from './about/about.module';
+import {WhereaboutsModule} from './whereabouts/whereabouts.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    WhereaboutsPageComponent,
     PageNotFoundComponent,
     MainNavComponent,
     ProfileCardComponent
@@ -35,6 +35,7 @@ import {AboutModule} from './about/about.module';
     LayoutModule,
     BrowserAnimationsModule,
     WorkModule,
+    WhereaboutsModule,
     AboutModule
   ],
   providers: [],

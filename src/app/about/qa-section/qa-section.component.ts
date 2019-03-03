@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Mood, QaModel} from '../../model/qa.model';
+import {Mood, QaModel} from '../model/qa.model';
 
 @Component({
   selector: 'app-qa-section',

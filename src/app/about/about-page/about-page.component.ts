@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {QaService} from '../services/qa.service';
-import {Mood, QaModel} from '../../model/qa.model';
+import {Mood, QaModel} from '../model/qa.model';
 import {Title} from '@angular/platform-browser';
 
 @Component({

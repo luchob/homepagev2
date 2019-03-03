@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Mood, QaModel} from '../../model/qa.model';
+import {Mood, QaModel} from '../model/qa.model';
 
 @Injectable({
   providedIn: 'root'

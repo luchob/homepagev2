@@ -11,9 +11,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutPageComponent } from './about-page/about-page.component';
-import { WorkPageComponent } from './work-page/work-page.component';
+import { WorkPageComponent } from './work/work-page/work-page.component';
 import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.component';
 import { QaSectionComponent } from './qa-section/qa-section.component';
+import {WorkModule} from './work/work.module';
 
 
 @NgModule({
@@ -22,12 +23,10 @@ import { QaSectionComponent } from './qa-section/qa-section.component';
     HomePageComponent,
     AboutPageComponent,
     WhereaboutsPageComponent,
-    WorkPageComponent,
     PageNotFoundComponent,
     MainNavComponent,
     ProfileCardComponent,
     AboutPageComponent,
-    WorkPageComponent,
     WhereaboutsPageComponent,
     QaSectionComponent
   ],
@@ -37,7 +36,8 @@ import { QaSectionComponent } from './qa-section/qa-section.component';
     AppRoutingModule,
     MaterialModule,
     LayoutModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    WorkModule
   ],
   providers: [],
   bootstrap: [AppComponent]

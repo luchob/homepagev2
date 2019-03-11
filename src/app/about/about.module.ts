@@ -4,6 +4,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
 import { QaSectionComponent } from './qa-section/qa-section.component';
+import { AboutRoutingModule } from './about-routing.module';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,10 @@ import { QaSectionComponent } from './qa-section/qa-section.component';
   imports: [
     CommonModule,
     FlexLayoutModule,
-    MaterialModule
+    MaterialModule,
+    AboutRoutingModule
   ],
   exports: [
-    AboutPageComponent
   ]
 })
 export class AboutModule { }

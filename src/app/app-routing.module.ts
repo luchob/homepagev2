@@ -39,13 +39,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'about',
-    component: AboutPageComponent,
-    pathMatch: 'full',
-    data: {
-      title: 'Lachezar Balev - About',
-      description: 'Looking for some random thoughts from me? This is the part of my personal ' +
-        'home page that you should visit.',
-    }
+    loadChildren: './about/about.module#AboutModule'
   },
   {
     path: '',

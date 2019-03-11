@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WorkModule } from './work/work.module';
-import { AboutModule } from './about/about.module';
 import { WhereaboutsModule } from './whereabouts/whereabouts.module';
 import { HomeModule } from './home/home.module';
 import { MainModule } from './main/main.module';
@@ -23,8 +22,7 @@ import { MainModule } from './main/main.module';
     MainModule,
     HomeModule,
     WorkModule,
-    WhereaboutsModule,
-    AboutModule
+    WhereaboutsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

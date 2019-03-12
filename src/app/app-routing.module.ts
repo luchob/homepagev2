@@ -19,13 +19,8 @@ const appRoutes: Routes = [
   },
   {
     path: 'work',
-    component: WorkPageComponent,
     pathMatch: 'full',
-    data: {
-      title: 'Lachezar Balev - Work and CV',
-      description: 'Are you looking for my CV and do you want to learn more ' +
-        'about my work and professional interests? You will most likely find this information here.',
-    }
+    loadChildren: './work/work.module#WorkModule'
   },
   {
     path: 'whereabouts',

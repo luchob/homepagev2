@@ -4,13 +4,15 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {MaterialModule} from '../material/material.module';
 import {MainNavComponent} from './main-nav/main-nav.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
-import {AppRoutingModule} from '../app-routing.module';
+import {BrowserModule} from '@angular/platform-browser';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [ MainNavComponent, PageNotFoundComponent ],
   imports: [
+    BrowserModule,
+    RouterModule,
     CommonModule,
-    AppRoutingModule,
     FlexLayoutModule,
     MaterialModule
   ],

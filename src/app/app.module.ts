@@ -4,8 +4,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomeModule } from './home/home.module';
 import { MainModule } from './main/main.module';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -16,9 +16,8 @@ import { MainModule } from './main/main.module';
     BrowserModule,
     LayoutModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
     MainModule,
-    HomeModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

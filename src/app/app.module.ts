@@ -21,8 +21,7 @@ import { MainModule } from './main/main.module';
     AppRoutingModule,
     MainModule,
     HomeModule,
-    WorkModule,
-    WhereaboutsModule
+    WorkModule
   ],
   providers: [],
   bootstrap: [AppComponent]

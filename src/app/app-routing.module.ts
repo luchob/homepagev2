@@ -29,16 +29,12 @@ const appRoutes: Routes = [
   },
   {
     path: 'whereabouts',
-    component: WhereaboutsPageComponent,
     pathMatch: 'full',
-    data: {
-      title: 'Lachezar Balev - Contact',
-      description: 'Do you want to contact me somehow or you want to check my presence ' +
-        'on the Internet? This page contains contact information.',
-    }
+    loadChildren: './whereabouts/whereabouts.module#WhereaboutsModule'
   },
   {
     path: 'about',
+    pathMatch: 'full',
     loadChildren: './about/about.module#AboutModule'
   },
   {

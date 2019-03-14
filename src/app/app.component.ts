@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {filter, map, mergeMap} from 'rxjs/operators';
-import {SEOServiceService} from './services/seoservice.service';
+import {SeoService} from './services/seo.service';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   constructor(private router: Router,
               private activatedRoute: ActivatedRoute,
-              private seoService: SEOServiceService) {}
+              private seoService: SeoService) {}
 
   ngOnInit() {
     this.router.events.pipe(

@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Mood, QaModel} from '../model/qa.model';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class QaService {
 
   constructor() { }

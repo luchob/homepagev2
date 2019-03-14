@@ -5,6 +5,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { QaSectionComponent } from './qa-section/qa-section.component';
 import { AboutRoutingModule } from './about-routing.module';
 import { MatCardModule, MatIconModule } from '@angular/material';
+import { QaService } from './services/qa.service';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MatCardModule, MatIconModule } from '@angular/material';
     MatCardModule
   ],
   exports: [
-  ]
+  ],
+  providers: [QaService]
 })
 export class AboutModule { }

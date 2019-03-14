@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { MaterialModule } from '../material/material.module';
 import { QaSectionComponent } from './qa-section/qa-section.component';
 import { AboutRoutingModule } from './about-routing.module';
+import { MatCardModule, MatIconModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -14,8 +14,9 @@ import { AboutRoutingModule } from './about-routing.module';
   imports: [
     CommonModule,
     FlexLayoutModule,
-    MaterialModule,
-    AboutRoutingModule
+    AboutRoutingModule,
+    MatIconModule,
+    MatCardModule
   ],
   exports: [
   ]

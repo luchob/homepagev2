@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { MaterialModule } from '../material/material.module';
 import { WhereaboutsPageComponent } from './whereabouts-page/whereabouts-page.component';
 import { WhereaboutsRoutingModule } from './whereabouts-routing.module';
+import { MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { WhereaboutsRoutingModule } from './whereabouts-routing.module';
   ],
   imports: [
     FlexLayoutModule,
-    MaterialModule,
+    MatCardModule,
     WhereaboutsRoutingModule
   ],
   exports: [WhereaboutsPageComponent]

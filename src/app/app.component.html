@@ -1,6 +1,9 @@
 <!-- The toolbar -->
 <app-main-nav></app-main-nav>
-
+<mat-progress-bar
+  *ngIf="loading"
+  mode="indeterminate">
+</mat-progress-bar>
 <!-- Rooter outlet where the content appears -->
 <router-outlet></router-outlet>
 
